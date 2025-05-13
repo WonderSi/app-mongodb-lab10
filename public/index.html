@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Электронный научный журнал</title>
+  </head>
+  <body>
+    <h1>Электронный научный журнал</h1>
+
+    <p>
+      <button id="btnAll">Список статей</button>
+
+      <input type="text" id="titleInput" placeholder="текст названия…" />
+      <button id="btnByTitle">Поиск по названию</button>
+
+      <select id="authorSelect"></select>
+      <button id="btnByAuthor">Поиск по автору</button>
+    </p>
+
+    <table id="resultTable" hidden>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Название</th>
+          <th>Авторы</th>
+          <th>Дата размещения</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <script src="main.js" defer></script>
+  </body>
+</html>
