@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Новая статья</title>
+  </head>
+  <body>
+    <a href="index.html">&larr; назад</a>
+    <h1>Создать статью</h1>
+    <form id="form">
+      <p><input name="title" placeholder="Название" required /></p>
+      <p>
+        <input name="authors" placeholder="Авторы (через запятую)" required />
+      </p>
+      <p>
+        <textarea
+          name="content"
+          placeholder="Текст статьи"
+          rows="10"
+          required
+        ></textarea>
+      </p>
+      <p>
+        <input name="tags" placeholder="Теги (через запятую)" />
+        <p>
+          <button>Сохранить 💾</button>
+        </p>
+      </p>
+    </form>
+
+    <script src="create.js"></script>
+  </body>
+</html>
